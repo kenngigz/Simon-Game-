@@ -1,0 +1,107 @@
+body {
+  text-align: center;
+  background-color: rgb(250, 242, 240);
+}
+.container{
+  margin-top: 3rem;
+}
+.btn{
+  width:150px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 100%;
+  border: none;
+
+}
+.red{
+  border-color:red;
+  background-color: red;
+  box-shadow: 0 0 0 1px #f25022 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #c93a12, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  transition: 0.05s;
+}
+.red:hover,
+.red:focus {
+  background-color: #ff451a;
+  box-shadow: 0 0 0 1px #FF9000 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #e62b00, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
+}
+.blue{
+    border-color:blue;
+  background-color: blue;
+  box-shadow: 0 0 0 1px #00a4ef inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #0883bc, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  transition: 0.05s;
+}
+.blue:hover,
+.blue:focus {
+  background-color: #139ddd;
+  box-shadow: 0 0 0 1px #139ddd inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #0c7cb0, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
+}
+.yellow{
+  border-color:yellow;
+  background-color: yellow;
+  box-shadow: 0 0 0 0px #ffb900 inset, 0 0 0 0px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #c28e07, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  transition: 0.05s;
+}
+.yellow:hover,
+.yellow:focus {
+  background-color: #ffb900;
+  box-shadow: 0 0 0 1px #ffb900 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0  #c28e07, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
+}
+.green{
+  border-color:green;
+  background-color: green;
+  box-shadow: 0 0 0 1px #7fba00 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #638f05, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  transition: 0.05s;
+}
+.green:hover,
+.green:focus {
+  background-color: #8cc218;
+  box-shadow: 0 0 0 1px #8cc218 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #74a802, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6)
+}
+.startme{
+  margin-top: 25px;
+}
+.startgame{
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+}
+.startgame:hover {
+  color: #333;
+  border-color: #888;
+  outline: 0;
+}
+.textDeco{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #bbb;
+}
+.gameInfo{
+  font-family: "IBM Plex Mono", monospace;
+  color: #bbb;
+  font-size: 35px;
+  font-style: oblique;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.levelCounter{
+  font-family: "IBM Plex Mono", monospace;
+  color: red;
+  font-size: 34px;
+  font-style: oblique;
+  font-weight: 800;
+  line-height: 38px;
+}
