@@ -2,4 +2,4 @@
 Simon Game
 
 
-HTML, CSS, JS, JQUERY.
+HTML, CSS, BOOTSTRAP, JS, JQUERY.
